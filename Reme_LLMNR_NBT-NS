@@ -9,3 +9,8 @@ For these changes to occur, we would have to either reboot the target system or 
 
 To push this out to all hosts in a domain, create a GPO using Group Policy Management on the Domain Controller and host the script on the SYSVOL share in the scripts folder and then call it via its UNC path:
   \\inlanefreight.local\SYSVOL\INLANEFREIGHT.LOCAL\scripts
+
+
+
+Other mitigations include filtering network traffic to block LLMNR/NetBIOS traffic and enabling SMB Signing to prevent NTLM relay attacks.
+Network intrusion detection and prevention systems can also be used to mitigate this activity, while network segmentation can be used to isolate hosts that require LLMNR or NetBIOS enabled to operate correctly.

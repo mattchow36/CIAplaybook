@@ -1,0 +1,9 @@
+first
+LLMNR UDP 5355
+then
+NBT_NS UDP 137
+
+*** Using Responder (https://github.com/lgandx/Responder) pretending as DNS to get cretentials or hash
+*** Altertively:
+      https://github.com/Kevin-Robertson/Inveigh
+      https://www.metasploit.com/

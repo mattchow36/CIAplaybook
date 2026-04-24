@@ -9,3 +9,6 @@ Sample steps:
   sudo nmap --open -oA inlanefreight_ept_tcp_1k.txt -iL scope.txt (查1000个常用ports)
   sudo nmap --open -p- -sV -oA inlanefreight_ept_tcp_all_svc -iL scope (查1000的版本)
   sudo nmap --open -p- -A -oA inlanefreight_ept_tcp_all_svc -iL scope  (查全ports的版本)
+
+
+https://github.com/leonjza/awesome-nmap-grep

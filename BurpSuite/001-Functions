@@ -2,6 +2,6 @@ Proxy：intercepting
 
 Repeater
 
-Decoder：coding
+Decoder：coding, decoding text
 
-Intruder：fuzzing
+Intruder：fuzzing uploading file types

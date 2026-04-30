@@ -7,4 +7,4 @@ characters shifts:
     tr:     set2 cp to set1
     '!-}':  set1, asscii from ! to -
     '"-~':  set2, asscii from " to ~
-    <<<[:   pass [ to tr '!-}' '"-~'
+    <<<[:   pass [ to tr '!-}' '"-~'  ,  so pass [ get \

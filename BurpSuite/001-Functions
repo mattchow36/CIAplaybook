@@ -5,3 +5,5 @@ Repeater: editing text in request
 Decoder：coding, decoding text
 
 Intruder：fuzzing uploading file types, fuzzing for IDOR
+
+Comparer: hashing compare
